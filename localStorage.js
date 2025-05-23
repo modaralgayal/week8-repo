@@ -52,12 +52,6 @@ books.forEach((book) => {
   console.log(book.title);
 });
 
-/* Tehtävä 4
-Kirjoita funktio `saveToLocalStorage(key, object)`, joka:
-- Muuntaa olion JSONiksi.
-- Tallentaa sen LocalStorageen annetulla avaimella.
-Testaa tallentamalla olio ja hakemalla se.
-*/
 
 const saveToLocalStorage = (key, object) => {
   // Tallentaa localStorageen key arvolla value
